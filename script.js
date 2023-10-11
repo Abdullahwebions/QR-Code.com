@@ -178,21 +178,21 @@ let name;
 
 downloadPng.addEventListener("click", () => {
   qrCode.download({
-    name: "open-source-coding-" + Date.now(),
+    name: "Webions-QR-Code-" + Date.now(),
     extension: "png",
   });
 });
 
 downloadJpg.addEventListener("click", () => {
   qrCode.download({
-    name: "open-source-coding-" + Date.now(),
+    name: "Webions-QR-Code-" + Date.now(),
     extension: "jpg",
   });
 });
 
 downloadSvg.addEventListener("click", () => {
   qrCode.download({
-    name: "open-source-coding-" + Date.now(),
+    name: "Webions-QR-Code-" + Date.now(),
     extension: "svg",
   });
 });
