@@ -716,6 +716,7 @@ nav div.active::before {
   border: none;
   outline: none;
   cursor: pointer;
+  border-radius: 5px;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
