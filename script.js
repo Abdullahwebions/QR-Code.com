@@ -294,7 +294,7 @@ openBtn.addEventListener("click", () => {
 
 function fetchRequest(file, formData) {
   dropzoneText.innerText = "جاري قرائة رمز QR...";
-  fetch("http://api.qrserver.com/v1/read-qr-code", {
+  fetch("./http://api.qrserver.com/v1/read-qr-code/", {
     method: "POST",
     body: formData,
   })
