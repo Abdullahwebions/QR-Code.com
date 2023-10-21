@@ -849,7 +849,7 @@
                 credits.style.right = "0";
                 credits.style.fontSize = "12px";
                 credits.style.color = "#000";
-                credits.style.fontFamily = "sans-serif";
+                credits.style.fontFamily = "Almarai";
                 credits.style.padding = "5px";
                 credits.style.background = "#fff";
                 credits.style.borderTopLeftRadius = "5px";
