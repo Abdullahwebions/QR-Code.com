@@ -197,6 +197,18 @@ downloadSvg.addEventListener("click", () => {
   });
 });
 
+let popuppp = document.getElementById("popuppp");
+
+function openPopuppp  () {
+  popuppp.classList.add("open-popup");
+}
+
+function closePopuppp  () {
+  popuppp.classList.remove("open-popup");
+}
+
+
+
 const dropzone = document.querySelector(".dropzone");
 const dropzoneInput = document.querySelector("#file");
 const dropzoneText = document.querySelector(".dropzone .text");
@@ -294,7 +306,7 @@ openBtn.addEventListener("click", () => {
 
 function fetchRequest(file, formData) {
   dropzoneText.innerText = "جاري قرائة رمز QR...";
-  fetch("./http://api.qrserver.com/v1/read-qr-code/", {
+  fetch("http://api.qrserver.com/v1/read-qr-code/", {
     method: "POST",
     body: formData,
   })
