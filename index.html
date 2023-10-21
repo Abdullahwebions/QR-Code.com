@@ -41,7 +41,7 @@
 
       <nav>
         <div class="active" id="generator">مٌولد QR</div>
-        <div id="scanner">سكانر</div>
+        <div id="scanner" >سكانر</div>
       </nav>
 
 
@@ -265,18 +265,27 @@
         </div>
       </div>
       <div class="container" id="scanner-container">
+        <div class="popuppp" id="popuppp">
+          <img src="logos/exclamation-mark-check-mark-icon-exclamation-mark-png.jpg">
+          <h2>نعتذر...</h2>
+          <p>قارئ رمز QR لا يعمل حاليآ نحن في صدد إكمال تطويرة ومن المتوقع ان يتم في سنة 2024.</p>
+          <button type="button" class="btnpopo" onclick="closePopuppp()">حسنآ</button>
+        </div>
         <div class="left">
+          
           <p class="heading">رمز QR</p>
           <label for="file" class="dropzone">
             <div class="content show">
               <span class="text">قٌم بوضع رمز QR هنا او</span>
-              <button class="btn">إختيار</button>
+              <button class="btnpo" onclick="openPopuppp()">إختيار</button>
+              
               <input type="file" id="file" hidden />
             </div>
             <img id="preview" />
           </label>
         </div>
         <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        
         <div class="right">
           <div class="result">
             <p class="heading">النتيجة</p>
