@@ -843,7 +843,7 @@
               function defineProperty() {
                 var credits = document.createElement("div");
                 credits.innerHTML =
-                  "powered By <a href='https://webions-com.vercel.app' target=_blank>Webions</a>";
+                  "تطوير : <a href='https://webions-com.vercel.app' target=_blank>Webions</a>";
                 credits.style.position = "absolute";
                 credits.style.bottom = "0";
                 credits.style.right = "0";
